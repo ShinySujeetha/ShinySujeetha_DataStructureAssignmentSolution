@@ -1,0 +1,8 @@
+package com.gl.javafsd.FloorPlanning;
+
+public class FloorPlanner {
+	FloorPlanner(int[] array){
+		
+	}
+
+}

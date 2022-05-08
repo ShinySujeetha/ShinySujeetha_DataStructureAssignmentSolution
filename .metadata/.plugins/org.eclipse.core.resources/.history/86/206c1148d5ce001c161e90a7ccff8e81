@@ -1,0 +1,9 @@
+package com.gl.javafsd.FloorPlanning;
+import java.util.Scanner;
+
+public class UserInput {
+	System.out.println("Enter the no.of floors in the building");
+	
+	
+
+}

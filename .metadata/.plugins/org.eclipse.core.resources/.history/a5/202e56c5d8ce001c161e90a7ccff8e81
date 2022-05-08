@@ -1,0 +1,21 @@
+package com.gl.javafsd.FloorPlanning;
+import java.util.Scanner;
+
+public class DriverClass {
+	public static void main(String[] args) {
+		System.out.println("Enter the no.of floors in the building");
+		Scanner sc = new Scanner(System.in);
+		int floors=sc.nextInt();
+		public int array[]=new int[floors];
+		for(int index=0;index<=floors;index++) {
+			System.out.println("Enter the floor size given on day : "+index);
+		    array[index]=sc.nextInt();
+		    if(array[index]==index) {
+		    	FloorAssembler.pop();
+		    }
+		    else
+		    	FloorAssembler.push();
+		sc.close();
+		System.out.println("The order of construction is as follows");
+	}
+}

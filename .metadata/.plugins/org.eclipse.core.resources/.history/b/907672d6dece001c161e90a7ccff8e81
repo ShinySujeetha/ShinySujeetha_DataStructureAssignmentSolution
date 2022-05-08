@@ -1,0 +1,22 @@
+package com.gl.javafsd.FloorPlanning;
+
+public class FloorAssembler() {	
+	public FloorAssembler(Integer[] array) {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	void push() {
+		for(int i=0;i<array.length;i++) {
+			a[++currentPointer]=array[i];
+		}
+		
+	}
+	
+	
+	int pop() {
+		int x=a[currentPointer--];
+		return x;
+	}
+
+}

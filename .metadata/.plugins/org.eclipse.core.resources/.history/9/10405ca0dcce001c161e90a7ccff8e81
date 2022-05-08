@@ -1,0 +1,17 @@
+package com.gl.javafsd.FloorPlanning;
+
+public class FloorAssembler {
+	static final int size=100;
+	int currentPointer;
+	int a[] = new int[size];
+	FloorAssembler() {
+		currentPointer=-1;
+	}
+	
+	
+	int pop() {
+		int x=a[currentPointer--];
+		return x;
+	}
+
+}

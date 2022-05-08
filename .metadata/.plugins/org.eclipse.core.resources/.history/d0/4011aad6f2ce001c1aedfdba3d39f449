@@ -1,0 +1,8 @@
+package com.gl.javafsd.BSTtoSkewed;
+
+public class BSTtoSkewed {
+	public BSTtoSkewed(BST tree) {
+		
+	}
+
+}

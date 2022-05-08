@@ -1,0 +1,21 @@
+package com.gl.javafsd.FloorPlanning;
+import java.util.Stack;
+
+public class FloorPlanner {
+	FloorPlanner(int[] array,int floors){
+		 Stack<Integer> stack=new Stack<Integer>();
+		 for(int index=1;index<=floors;index++) {
+			 if(array[index]!=floors) {
+				 stack.push(array[index]);
+				 System.out.println("Day: " +index);
+			 }
+			 else {
+				 System.out.println("Day: " +index);
+				 stack.pop();
+			 }
+			 floors--;
+		}
+		
+	}
+
+}
